@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="landing.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="left-side-container">
+          <div class="overlap">SANTA</div>
+          <img class="santa-img" src="/images/santa.png" alt="image of Santa Claus">
+        </div>
+        <div class="right-side-container">
+          <div class="santa-text">
+            <h2>Santa is in need of more elves for the holiday season. Join our team and help bring joy to children around the world. Competitive pay, flexible hours, festive work environment. Apply now to become an elf at the North Pole!</h2><br>
+            <p class="sign-up">Sign up <em>now</em> to get started!</p>
+            <p class="know">You <em>know</em> you want to</p>
+          </div>
+          <div class="form-container">
+            <form action="/submit-form" method="post">
+              <div class="form-layout">
+                <fieldset>
+                  <legend><strong>Lets do this!</strong></legend>
+                  <div class="name-container">
+                    <div class="first-name-access">
+                      <label for="first-name" id="first-name">FIRST NAME</label> <br>
+                      <input type="text" id="first-name" name="name">
+                    </div>
+                    <div class="second-name-access">
+                      <label for="last-name">LAST NAME</label> <br>
+                      <input type="text" id="second-name" name="name">
+                    </div>
+                  </div>
+                  <div class="inputs">
+                    <div class="email-access">
+                      <label for="email">EMAIL</label> <br>
+                      <input type="email" id="email" name="email">
+                    </div>
+                    <div class="phone-access">
+                      <label for="phone">PHONE NUMBER</label> <br>
+                      <input type="tel" id="phone" name="phone">
+                    </div>
+                  </div>
+                  <div class="password-section">
+                    <div class="password-access">
+                      <label for="password">PASSWORD</label> <br>
+                      <input type="password" required id="password" name="password">
+                      <div class="incorrect-password"></div>
+                    </div>
+                    <div>
+                      <label for="confirm-password">CONFIRM PASSWORD</label> <br>
+                      <input type="password" required id="confirm-password" name="confirm-password">
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </form>
+          </div>
+          <div class="account-section">
+              <div class="btn-container">
+                  <button id="create-account-btn" type="submit">Create Account</button>
+                  <p>Already have an account? <em>Log in</em></p>
+              </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side-container, .right-side-container {
+    height: 100%;
+}
+
+.left-side-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    
+
+}
+
+.right-side-container {
+    display: flex;
+    flex-grow: 2;
+    flex-shrink: 1;
+    width: 50%;
+    flex-direction: column;
+}
+
+.santa-text {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 100px;
+    background-color: #F5F5F5;
+}
+
+.know {
+    font-size: 24px;
+}
+
+.sign-up {
+    font-size: 24px;
+}
+
+.overlap {
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    opacity: 0.4;
+    margin-top: 150px;
+
+
+}
+
+.santa-img {
+   height: 100%;
+   width: 100%;
+} 
+
+
+.form-container {
+    display: flex;
+    height: 33%;
+    width: 100%;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 40px;
+    border: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.name-container  {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.first-name-access {
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.email-access {
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.password-access {
+    margin-right: 80px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.password-section {
+    display: flex;
+}
+
+.account-section {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: #F5F5F5;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3); 
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    outline: 1px solid blue;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#create-account-btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #576844;
+    color: white;
+}
